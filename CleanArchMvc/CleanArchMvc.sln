@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMvc.Domain", "..\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMvc.Application", "..\CleanArchMvc.Application\CleanArchMvc.Application.csproj", "{AA7D0175-6E64-4C2B-8D22-ED00892075F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMvc.Data", "..\CleanArchMvc.Data\CleanArchMvc.Data.csproj", "{5DB0868C-AF8E-475E-8935-6196CF6911DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMvc.Infra.Data", "..\CleanArchMvc.Data\CleanArchMvc.Infra.Data.csproj", "{5DB0868C-AF8E-475E-8935-6196CF6911DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMvc.IoC", "..\CleanArchMvc.IoC\CleanArchMvc.IoC.csproj", "{D0F16E68-D7D4-4779-B288-5698A75983C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMvc.Infra.IoC", "..\CleanArchMvc.IoC\CleanArchMvc.Infra.IoC.csproj", "{D0F16E68-D7D4-4779-B288-5698A75983C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMvc.WebUI", "..\CleanArchMvc.WebUI\CleanArchMvc.WebUI.csproj", "{A00714A6-3A83-4FF9-9A38-4C19273FEE44}"
 EndProject
