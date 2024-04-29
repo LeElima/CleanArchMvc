@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchMvc.Application.Services
 {
-    internal class ProductService : IProductService
+    public class ProductService : IProductService
     {
         private IProductRepository _productRepository;
 
