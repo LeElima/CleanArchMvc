@@ -30,7 +30,9 @@ namespace CleanArchMvc.Infra.IoC
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
+
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
+            services.AddAutoMapper(typeof(DTOToCommandMappingProfile));
 
             var myHandlers = AppDomain.CurrentDomain.Load("CleanArchMvc.Application");
             services.AddMediatR(myHandlers);
