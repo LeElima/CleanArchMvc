@@ -1,0 +1,17 @@
+﻿using CleanArchMvc.Application.DTOs;
+using CleanArchMvc.Domain.Entities;
+using AutoMapper;
+using CleanArchMvc.Application.Products.Commands;
+
+namespace CleanArchMvc.Application.Mappings
+{
+    public class DTOToCommandMappingProfile : Profile
+    {
+        public DTOToCommandMappingProfile()
+        {
+            CreateMap<ProductDTO, ProductCreateCommand>().ReverseMap();
+            CreateMap<ProductDTO, ProductUpdateCommand>().ReverseMap();
+        }
+    }
+
+}

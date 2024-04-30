@@ -12,7 +12,7 @@ namespace CleanArchMvc.Application.Interfaces
         Task<IEnumerable<ProductDTO>> GetProductsAsync();
         Task<ProductDTO> GetByIdAsync(int? id);
 
-        Task<ProductDTO> GetProductCategoryAsync(int? id);
+        //Task<ProductDTO> GetProductCategoryAsync(int? id);
         Task AddAsync(ProductDTO productDto);
         Task UpdateAsync(ProductDTO productDto);
         Task RemoveAsync(int? id);
