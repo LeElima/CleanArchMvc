@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json.Serialization;
 
 namespace CleanArchMvc.Application.DTOs
 {
@@ -41,7 +42,7 @@ namespace CleanArchMvc.Application.DTOs
         [MaxLength(250)]
         [DisplayName("Product Image")]
         public string Image { get; set; }
-
+        [JsonIgnore]
         public Category Category { get; set; }
 
         [DisplayName("Categories")]
